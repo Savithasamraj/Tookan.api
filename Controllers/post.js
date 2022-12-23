@@ -9,6 +9,10 @@ const  datas= async(req,res)=>{
     }
     catch(error){
 console.log(error)
+       
+var data=error
+fs.writeFile('error.txt',data )
+
     }
 }
 module.exports={datas}

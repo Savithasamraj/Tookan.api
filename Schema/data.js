@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const data=new mongoose.Schema({
    
-    job_latitude:{ type:String,required="true"},
+    job_latitude:{ type:String,
     fleet_email:{type:String,},
     is_routed:{type:String,},
     job_type:{type:String,},

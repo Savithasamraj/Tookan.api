@@ -1,5 +1,5 @@
 const data =require("../Schema/data")
-
+const fs = require('fs');
 const  datas= async(req,res)=>{
     
     try{
